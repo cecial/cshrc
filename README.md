@@ -1,0 +1,2 @@
+# cshrc
+cshrc setting
