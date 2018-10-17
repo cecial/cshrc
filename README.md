@@ -5,11 +5,11 @@ if ( $?prompt ) then
     set prompt = "`hostname`: $cwd >"
 endif
 
-\# set execute search path
-setenv PATH "${PATH}:$HOME/script"
-\#set path = ($path \
-\#             /$HOME/script
-\#              \)
+\# set execute search path 
+setenv PATH "${PATH}:$HOME/script" 
+\#set path = ($path \ 
+\#             /$HOME/script 
+\#              \) 
 
 \# Highlight grep word
 setenv GREP_OPTIONS --color=auto 
