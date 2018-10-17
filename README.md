@@ -1,9 +1,9 @@
 # cshrc
-#cshrc setting
+#cshrc setting  
 
-if ( $?prompt ) then 
-    set prompt = "`hostname`: $cwd >"
-endif
+if ( $?prompt ) then  
+    set prompt = "`hostname`: $cwd >"  
+endif  
 
 \# set execute search path  
 setenv PATH "${PATH}:$HOME/script"  
@@ -15,7 +15,6 @@ setenv PATH "${PATH}:$HOME/script"
 setenv GREP_OPTIONS --color=auto   
 
 \# press tab to autofill file/dir, instead press Ctrl+D <br>
-set autolist 
+set autolist   
 
-
-alias cd 'cd \!*; set prompt = "`hostname`: $cwd >"'
+alias cd 'cd \!*; set prompt = "`hostname`: $cwd >"'  
